@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "||pagead2.googlesyndication.com^",
+            "resourceTypes": ["script", "xmlhttprequest", "image", "sub_frame", "other"]
+        }
+    },
+    {
+        "id": 2,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "||tpc.googlesyndication.com^",
+            "resourceTypes": ["script", "xmlhttprequest", "image", "sub_frame", "other"]
+        }
+    },
+    {
+        "id": 3,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "||adservice.google.com^",
+            "resourceTypes": ["script", "xmlhttprequest", "image", "sub_frame", "other"]
+        }
+    },
+    {
+        "id": 4,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "||static.ads-twitter.com^",
+            "resourceTypes": ["script", "xmlhttprequest", "image", "sub_frame", "other"]
+        }
+    },
+    {
+        "id": 5,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "||ads.linkedin.com^",
+            "resourceTypes": ["script", "xmlhttprequest", "image", "sub_frame", "other"]
+        }
+    },
+    {
+        "id": 6,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "||snap.licdn.com^",
+            "resourceTypes": ["script", "xmlhttprequest", "image", "sub_frame", "other"]
+        }
+    },
+    {
+        "id": 7,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "||pixel.advertising.com^",
+            "resourceTypes": ["script", "xmlhttprequest", "image", "ping", "other"]
+        }
+    },
+    {
+        "id": 8,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "||bid.g.doubleclick.net^",
+            "resourceTypes": ["script", "xmlhttprequest", "image", "sub_frame", "other"]
+        }
+    },
+    {
+        "id": 9,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "||stats.g.doubleclick.net^",
+            "resourceTypes": ["script", "xmlhttprequest", "image", "ping", "other"]
+        }
+    },
+    {
+        "id": 10,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "||cm.g.doubleclick.net^",
+            "resourceTypes": ["script", "xmlhttprequest", "image", "ping", "other"]
+        }
+    }
+]
