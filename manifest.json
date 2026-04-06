@@ -1,15 +1,31 @@
 {
     "name": "Simple Adblocker",
-    "version": "1.0",
-    "description": "This is an Adblocker.",
-    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "version": "2.0",
+    "description": "A lightweight ad blocker using declarativeNetRequest.",
+    "manifest_version": 3,
+    "permissions": [
+        "declarativeNetRequest",
+        "declarativeNetRequestWithHostAccess"
+    ],
+    "host_permissions": ["<all_urls>"],
     "background": {
-        "scripts": ["background.js"]
+        "service_worker": "background.js"
+    },
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset_static",
+                "enabled": true,
+                "path": "rules.json"
+            }
+        ]
     },
     "icons": {
         "16": "icons/ico_16x16.png",
         "48": "icons/ico_48x48.png",
         "128": "icons/ico_128x128.png"
     },
-    "manifest_version": 3
+    "action": {
+        "default_title": "Simple Adblocker"
+    }
 }
